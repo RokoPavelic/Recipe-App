@@ -1,0 +1,50 @@
+.App {
+  min-height: 100vh;
+  background-color: rgb(162, 166, 212);
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 3em;
+
+  font-style: italic;
+}
+
+.search-form {
+  min-height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-button {
+  background: black;
+  border: none;
+  border-radius: 10px;
+  margin: 0.2em;
+  padding: 10px 20px;
+  color: white;
+}
+
+.search-input {
+  width: 30%;
+  height: 2em;
+  border-radius: 10px;
+  border: none;
+}
+
+.recepies {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
